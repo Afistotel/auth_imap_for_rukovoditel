@@ -1,10 +1,15 @@
 Авторизация через IMAP для rukovoditel.net.ru
 
 Наименование: Авторизация через IMAP
+
 Разработчик: ООО "Нионейт"
+
 Официальный сайт компании: https://neonate.ru
+
 Telegram: https://t.me/neonategroup
+
 Проект на Github: https://github.com/Afistotel/auth_imap_for_rukovoditel
+
 Версия: 1.0.
 
 Описание:
