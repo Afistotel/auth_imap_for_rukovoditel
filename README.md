@@ -27,11 +27,18 @@ Telegram: https://t.me/neonategroup
 2) Добавьте константы в config/server.php:
 
 // Auth by IMAP
+
 define('AUTH_IMAP_HOST', 'mail.yourdomain.ru');
+
 define('AUTH_IMAP_PORT', 993);
+
 define('AUTH_IMAP_ENCRYPTION', 'ssl');
+
 define('AUTH_IMAP_VALIDATE_CERT', true);
+
 define('AUTH_IMAP_USER_GROUP', 0);
 
+
 3) В том же файле найдите объявление константы AVAILABLE_PLUGINS и добавь в нее новый плагин через запятую, должно получиться что-то вроде такого:
+   
 define('AVAILABLE_PLUGINS', 'ext,auth_imap');
